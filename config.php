@@ -1,4 +1,6 @@
 <?php
+//此文件为配置文件
+//请务必在运行install.php之前，填写本文件，删除install目录后，必须保留本文件，否则程序无法运行
 $dbhost = 'localhost';  // mysql服务器主机地址
 $dbuser = 'user_name';            // mysql用户名
 $dbpass = 'user_password';          // mysql用户名密码
