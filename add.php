@@ -49,6 +49,6 @@ if(isset($_POST['url'])){
 
     mysqli_close($conn);
 }else{
-       die('URL参数缺失！');
+    die('URL参数缺失！');
 }
 ?>
