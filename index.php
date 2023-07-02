@@ -3,7 +3,7 @@
 include 'config.php';
 
 if(isset($_GET['id'])){
-    echo '缺少id参数';
+    die('缺少id参数');
 }
 
 $conn = mysqli_connect($dbhost, $dbuser, $dbpass);
@@ -26,7 +26,7 @@ if(! $retval )
 }
 
 if($retval->num_rows ==0){
-    echo 'ID不存在！';
+    die('ID不存在！');
 }
 
 while($row = mysqli_fetch_array($retval, MYSQLI_ASSOC))
