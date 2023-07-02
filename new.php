@@ -19,7 +19,7 @@ $(function(){
 
 <center>
     <h1>你好，请添加短链接</h1>
-    <p>您的链接：<input type='text' id='t' value='http://' /> </p>
+    <p>长链接：<input type='text' id='t' value='http://' /> </p>
     <button id='b'>生成短链接</button>
     <p id='aaa'></p>
 </center>
