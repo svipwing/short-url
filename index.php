@@ -33,6 +33,6 @@ if(isset($_GET['id'])){
 
     mysqli_close($conn);
 }else{
-    die('ID参数不存在');
+    die('ID参数缺失！');
 }
 ?>
