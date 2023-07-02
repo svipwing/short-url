@@ -1,6 +1,6 @@
 <?php header("content-type:text/html;charset=utf-8"); ?>
 
-<script src="js/jquery.min.js"></script>
+<script src="js/jquery.js"></script>
 
 <script>
 $(function(){
