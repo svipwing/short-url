@@ -4,6 +4,10 @@ header("content-type:text/html;charset=utf-8");
 include 'config.php';
 
 if(isset($_POST['url'])){
+    if(strpos($_POST['url'], 'http') == false){
+        die('链接必须使用 http://或https:// 开头');
+    }
+    
     $conn = mysqli_connect($dbhost, $dbuser, $dbpass);
 
     if(! $conn )
