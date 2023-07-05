@@ -7,6 +7,7 @@
 使用php+mysql架构，采用jquery框架。
 
 为保证项目无BUG，可正常运行，开发者已亲自试验，并严格按照`readme.md`操作后，安装成功，一切正常
+
 测试环境：
 1. phpmyadmin 4.9.7
 2. php 72
