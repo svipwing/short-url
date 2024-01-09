@@ -6,7 +6,7 @@ $(function(){
     if(re.test($('#link').val())){
         
       $.post("add.php",{'url':$('#link').val()},function(data,status){
-        $('message').text("短链接地址: " + data);
+        $('#message').text("短链接地址: " + data);
       });
       
     }else{
