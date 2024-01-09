@@ -55,7 +55,7 @@ echo '<table border="1"><tr><td>编号</td><td>URL地址</td><td>用户IP地址<
 while($row = mysqli_fetch_array($retval, MYSQLI_ASSOC))
 {
     echo "<tr><td> {$row['num']}</td> ".
-         "<td>".base64_decode($row['url'])."</td> ".
+         "<td>".htmlentities(base64_decode($row['url']))."</td> ".
          "<td>{$row['ip']} </td> ".
          "<td>{$row['add_date']} </td> ".
          "</tr>";
