@@ -3,6 +3,10 @@
 include 'config.php';
 
 if(isset($_GET['id'])){
+    if(!is_numeric($_GET['id'])){
+      die("id参数不合法");
+    }
+    
     $conn = mysqli_connect($dbhost, $dbuser, $dbpass);
 
     if(! $conn )
