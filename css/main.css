@@ -8,9 +8,6 @@ html,body{
 }
 
 body{
-  background-image: url("https://bing.shangzhenyang.com/api/1080p");
-  
-  background-size: 100% 100%;
   background-attachment: fixed;
   background-repeat: no-repeat;
   color: white;
@@ -21,21 +18,19 @@ body{
 }
 
 div{
-  padding: 150px;
-  backdrop-filter: blur(8px);
+  padding: 130px;
+  /*backdrop-filter: blur(8px);*/
   border-radius: 20px;
 }
 
 #start{
-  background-color: #1E9FFF;
   border-radius: 1px;
   padding: 6px;
   border: none;
-  color: white;
 }
 
 input{
   border-radius: 5px;
   padding: 3px;
-  border: none;
+  
 }
