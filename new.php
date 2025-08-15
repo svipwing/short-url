@@ -23,12 +23,12 @@
       <h1 style="margin-bottom:20px;">短链接系统</h1>
     
       <p style="margin-bottom:20px;">
-        长链接：<input type='text' id='link' value='http://' />
+        源链接：<input type='text' id='link' value='http://' />
       </p>
     
-      <button id='start' style="margin-bottom:20px;" class="color-blue-full">生成短链接</button>
+      <button id='start' style="margin-bottom:20px;" class="color-blue-full">一键缩短</button>
     
-      <p id='message'>您的短链接：http://请先生成短链接.com</p>
+      <p id='message'>短链接：https://example.com</p>
     </div>
   </center>
 </body>
